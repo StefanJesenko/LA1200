@@ -53,7 +53,9 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![LA1200--PAP](https://user-images.githubusercontent.com/110892250/197727857-f38caf37-20c7-421a-b46e-1d7b90fe09a3.png)
+
+
 
 ## 2 Planen
 
