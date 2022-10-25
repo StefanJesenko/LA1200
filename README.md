@@ -43,7 +43,7 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 | 2.1| Testfall 1.3             |   n      |Vorname und Nachname des Teilnehmers eingeben:       |
 | 3.1 |Testfall 2.1  |  Pascal Oestrich| Bitte wählen sie einen Workshop für Priorität (1-3)|
 | 6.1  | Testfall 1.3              | Buchstabensuppe        | Ungültige eingabe bitte versuchen sie es erneut|
-| 7.1| genügend Teilnehmer eingegeben (mehr als 4 * Anzahl Workshops)|         |Möchten sie einen weiteren Teilnehmer hinzufügen? [y/n] |
+| 7.1| genügend Teilnehmer eingegeben (mehr als 4 * Anzahl Workshops)|         |Sie haben die Mindestanzahl von Teilnehmer erreicht, wenn sie keine Teilnehmer mehr hinzufügen wollen geben sie bitte n ein. |
 | 8.1  | Testfall 7.1             | n        | (Eingeteilte Teilnehmer nach Workshop)                   |
 
 
