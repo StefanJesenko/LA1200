@@ -36,8 +36,16 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Programm wurde gestartet|         | Bitte geben sie Workshop 1 ein:  |
+| 1.2| Testfall 1.1             | Malen        |  Workshop Malen wurde hinzugefügt                 |
+| 1.3| Testfall 1.2             |       |Wollen sie einen weiteren Workshop hinzufügen? [y|n]         |
+| 1.4 | Testfall 1.3             |  y       |Bitte geben sie Workshop 2 ein:                   |
+| 2.1| Testfall 1.3             |   n      |Vorname und Nachname des Teilnehmers eingeben:       |
+| 3.1 |Testfall 2.1  |  Pascal Oestrich| Bitte wählen sie einen Workshop für Priorität (1-3)|
+| 6.1  | Testfall 1.3              | Buchstabensuppe        | Ungültige eingabe bitte versuchen sie es erneut|
+| 7.1| genügend Teilnehmer eingegeben (mehr als 4 * Anzahl Workshops)|         |Möchten sie einen weiteren Teilnehmer hinzufügen? [y|n] |
+| 8.1  | Testfall 7.1             | n        | (Eingeteilte Teilnehmer nach Workshop)                   |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
