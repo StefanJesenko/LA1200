@@ -13,7 +13,7 @@
 
 ### 1.1 Workshop
 
-✍In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop einteilung gelingen wird.
+In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop einteilung gelingen wird.
 
 ### 1.2 User Stories
 
