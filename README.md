@@ -1,7 +1,7 @@
 # Deer-club
 ## Projekt-Dokumentation
 
-✍Parrot(Deer club): Pascal Oestrich, Keanu Koelewijn, Stefan Jesenko, Dorian Herzig, Lorenzo Lai
+Parrot(Deer club): Pascal Oestrich, Keanu Koelewijn, Stefan Jesenko, Dorian Herzig, Lorenzo Lai
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -31,8 +31,6 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 | 10  |         Kann        | Qualität      |  Ich als Nutzer erwarte, dass das Program ein einfaches und gutes Design hat. |
 | 11  |    Kann             |    Rand  |  Das Programm wird mit Listen und Funktionen geschrieben. |
 | ...  |                 |      |  |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
