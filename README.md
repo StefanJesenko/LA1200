@@ -6,8 +6,8 @@
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |    25.10.22   | 1.1.0   | IPE = Informieren/ Planen/ Entscheiden |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|   01.11.22    | 1.1.1   | R = Realisieren             |
+|   ...    | ...  |                                                              |
 
 ## 1 Informieren
 
