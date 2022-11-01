@@ -9,8 +9,9 @@ namespace LA_1200
             bool loop = true;
             List<string> listenWorkshopNamen = new List<string>();
                WorkshopNamen workshopNamen = new();
+            workshopNamen.Display();
            while(loop == true)
-            {
+           {
                 string workshopName = workshopNamen.Workshop(); 
                 if(workshopName == "n")
                 {
