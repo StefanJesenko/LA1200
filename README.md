@@ -19,16 +19,16 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |      Muss           |   Funktional   | Als Nutzer erwarte ich, dass ich meine Workshops selber eintagen kann. |
+| 1    |      Muss           |   Funktional   | Als Nutzer erwarte ich, dass ich meine Workshops selber eintragen kann. |
 | 2  |      Muss           |   Funktional   | Ich als Nutzer erwarte, dass ich die Namen der Teilnehmer selber eintragen kann. |
-| 3  |       Muss          |    Funktional  |  Ich als Nutzer erwarte, dass ich die Priorität selber bestimmen kann, damit man die Teilnehmer nach den Prioritäten und anzahl Plätzen einteilenn kann. |
+| 3  |       Muss          |    Funktional  |  Ich als Nutzer erwarte, dass ich die Priorität selber bestimmen kann, damit man die Teilnehmer nach den Prioritäten und anzahl Plätzen einteilen kann. |
 | 4  |        Muss         |   Funktional   | Ich als Nutzer erwarte, dass am Ende des Programms, die gegebenen Daten korrekt und gerecht eingeteilt wird. |
 | 5  |    Muss             |  Funktional    | Ich als Nutzer erwarte, dass die Mindestangabe der Teilnehmer die Anzahl Workshops * 4 ist um die Mindestgrösse einzuhalten. |
 | 6  |        Muss         |    Funktional  |  Ich als Nutzer erwarte, dass der Programm mit Fehler Eingaben umgehen kann. |
 | 7  |          Muss       |  Funktional    |  Ich als Nutzer erwarte, dass ich abgefragt werde, nach jeden neuen Teilnehmer, ob ich einen weiteren Teilnehmer hinzufügen möchte, nachdem die Mindestanzahl erreicht wurde. |
 | 8  |   Muss              |  Funktional    |  Ich als Nutzer erwarte, dass die Teilnehmer korret gleichmässig verteilt werden in die Workshops und das Resultat ausgegeben wird. |
-| 9  |         Muss        |   Qualität   |  Ich als Nutzer erwarte, dass das Program übersichtliche Ausgaben hat. |
-| 10  |         Kann        | Qualität      |  Ich als Nutzer erwarte, dass das Program ein einfaches und gutes Design hat. |
+| 9  |         Muss        |   Qualität   |  Ich als Nutzer erwarte, dass das Program übersichtliche Ausgaben hat, damit man es besser verstehen kann. |
+| 10  |         Kann        | Qualität      |  Ich als Nutzer erwarte, dass das Program ein einfaches und gutes Design hat, um eine bessere Erfahrung zu erleben. |
 | 11  |    Kann             |    Rand  |  Das Programm wird mit Listen und Funktionen geschrieben. |
 
 ### 1.3 Testfälle
