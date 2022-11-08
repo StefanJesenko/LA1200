@@ -36,18 +36,18 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Programm wurde gestartet|         | Bitte drücken sie Enter Nach jeder Eingabe eines Workshops, wenn sie keine mehr hinzufügen wollen geben sie bitte n ein.|
-| 1.2  | Programm wurde gestartet   |          | Bitte geben sie Workshop 1 ein:|
-| 1.3  | Programm wurde gestartet   | *Malen*  | Workshop Malen wurde hinzugefügt|
-| 1.4  | Workshop wurde hinzugefügt | *Enter*  | Bitte geben sie Workshop 2 ein:|
-| 1.5  | Programm wurde gestartet   | *sieben* | Ungültige Eingabe! Bitte versuchen sie es erneut!  |
-| 2.1  | Das Programm fragt ob man noch einen Teilnehmer hinzufügen will |*n*|Vorname und Nachname des Teilnehmers eingeben:|
-| 2.2  | Testfall 2.1 | *13* |  Ungültige Eingabe! Bitte versuchen sie es erneut!  |
-| 3.1  | Testfall 2.1  |*Pascal Oestrich*| Bitte wählen sie einen Workshop für Priorität (1-3)|
-| 3.2  | Testfall 3.1 |  *x*  | Ungültige Eingabe! Bitte versuchen sie es erneut!  |
-| 4.1  | Testfall 3.1  |(alle Teilnehmer wurden hinzugefügt)|(Teilnehmer werden gerecht in den Workshops verteilt|
-|5.1   | Testfall 2.1  | *n* |Sie haben die Mindestanzahl von (4 * Anzahl Workshops) noch nicht erreicht bitte geben sie weitere Teilnehmer ein|
-| 6.1  | Testfall 1.3 |*Buchstabensuppe*| Ungültige eingabe bitte versuchen sie es erneut|
-| 7.1  | genügend Teilnehmer eingegeben (mehr als 4 * Anzahl Workshops)|         |Sie haben die Mindestanzahl von Teilnehmer erreicht, wenn sie keine Teilnehmer mehr hinzufügen wollen geben sie bitte n ein.|
+| 1.2  | Programm wurde gestartet, Workshopname Abfrage   |          | Bitte geben sie Workshop 1 ein:|
+| 1.3  | Programm wurde gestartet, Workshopname Abfrage   | *Malen*  | Workshop Malen wurde hinzugefügt|
+| 1.4  | Workshopname wurde eingegeben | *Enter*  | Bitte geben sie Workshop 2 ein:|
+| 1.5  | Programm wurde gestartet, Workshopname Abfrage   | *sieben* | Ungültige Eingabe! Bitte versuchen sie es erneut!  |
+| 2.1  | Das Programm fragt, ob man noch einen Workshop hinzufügen möchte |*n*|Vorname und Nachname des Teilnehmers eingeben:|
+| 2.2  | Testfall 2.1 | *13* |  Ungültige Eingabe! "Bitte versuchen sie es erneut!", Eingabefeld erscheint  |
+| 3.1  | Testfall 2.1  |*Pascal Oestrich*| "Bitte wählen sie einen Workshop für Priorität (1-3)"|
+| 3.2  | Testfall 2.1 |  *x*  | Ungültige Eingabe! "Bitte versuchen sie es erneut!", Eingabefeld erscheint |
+| 4.1  | Testfall 2.1  |(alle Teilnehmer wurden hinzugefügt)|(Teilnehmer werden gerecht nach den Prioritäten in den Workshops verteilt|
+| 5.1  | Testfall 2.1  | *n* |"Sie haben die Mindestanzahl von (4 * Anzahl Workshops) noch nicht erreicht bitte geben sie weitere Teilnehmer ein"|
+| 6.1  | Programm wurde gestartet, Workshopname Abfrage |*Buchstabensuppe*| "Ungültige eingabe bitte versuchen sie es erneut", Eingabefeld erscheint|
+| 7.1  | genügend Teilnehmer eingegeben (mehr als 4 * Anzahl Workshops)|         |"Sie haben die Mindestanzahl von Teilnehmer erreicht, wenn sie keine Teilnehmer mehr hinzufügen wollen geben sie bitte n ein."|
 | 8.1  |Testfall 7.1|*n*|(Eingeteilte Teilnehmer nach Workshop)|
 
 ### 1.4 Diagramme
