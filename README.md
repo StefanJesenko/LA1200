@@ -70,7 +70,7 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 | 4.A |    01.11.2022   |      Pascal / Stefan / Dorian   |        Coding    |       5        |
 | 4.B |    01.11.2022   |      Dorian / Keanu / Lorzeno   |        List Informieren   |       1        |
 | 4.C |    07.11.2022   |      Pascal   |        Teamplanung    |       1        |
-| 4.B |    08.11.2022   |      Keanu / Lorenzo    |        Code überprüfen   |       2        |
+| 4.B |    08.11.2022   |      Keanu / Lorenzo    |        Coden von Prioritätauswahl   |       2        |
 | 5.A |    08.11.2022   |      Dorian    |        Testprotokoll   |       1        |
 | 5.B |    08.11.2022   |      Dorian    |        Testen   |       1        |
 | 6.A |    15.11.2022   |      Alle    |        Lernbericht / Dokumentation   |       5        |
