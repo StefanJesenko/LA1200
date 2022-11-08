@@ -71,8 +71,9 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 | 4.B |    01.11.2022   |      Dorian / Keanu / Lorzeno   |        List Informieren   |       1        |
 | 4.C |    07.11.2022   |      Pascal   |        Teamplanung    |       1        |
 | 4.B |    08.11.2022   |      Keanu / Lorenzo    |        Coden von Prioritätauswahl   |       2        |
-| 5.A |    08.11.2022   |      Dorian    |        Testprotokoll   |       1        |
-| 5.B |    08.11.2022   |      Dorian    |        Testen   |       1        |
+| 5.A |    15.11.2022   |      Keanu / Stefan / Pascal    |        Programme zusammen setzten   |       2       |
+| 5.B |    08.11.2022   |      Dorian    |        Testprotokoll   |       1        |
+| 5.C |    08.11.2022   |      Dorian    |        Testen   |       1        |
 | 6.A |    15.11.2022   |      Alle    |        Lernbericht / Dokumentation   |       5        |
 
 Total Arbeitspakete: 21,7
@@ -97,8 +98,9 @@ Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übern
 | 4.A  |   01.11.2022   |      Pascal / Stefan / Dorian     |      5         |         5          |
 | 4.B  |   01.11.2022   |      Dorian / Keanu / Lorenzo    |      1        |         1          |
 | 4.C  |   07.11.2022  |      Pascal     |      1         |         0.5          |
-| 5.A |   08.11.2022  |      Dorian     |      1        |         Offen          |
-| 5.B  |   08.11.2022  |      Dorian     |      1         |         Offen          |
+| 5.A |   08.11.2022  |      Keanu / Stefan / Pascal     |      2        |         2          |
+| 5.B |   08.11.2022  |      Dorian     |      1        |         Offen          |
+| 5.C  |   08.11.2022  |      Dorian     |      1         |         Offen          |
 | 6.A  |   15.11.2022  |      Alle    |      5        |         Offen         |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
