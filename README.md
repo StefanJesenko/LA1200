@@ -5,9 +5,9 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|    25.10.22   | 0.0.1  | IPE = Informieren/ Planen/ Entscheiden |
-|   01.11.22    | 0.0.2   | R = Realisieren             |
-|   ...    | ...  |                                                              |
+|    25.10.22   | 0.1  | IPE = Informieren/ Planen/ Entscheiden |
+|   01.11.22    | 0.2  | R = Realisieren             |
+|   08.11.22    | 0.3  |    R = Realisieren / K = Kontrollieren                                                          |
 
 ## 1 Informieren
 
