@@ -1,4 +1,4 @@
-```c#
+
 namespace LA_1200
 {
     public class EingabePersonen 
@@ -36,5 +36,5 @@ namespace LA_1200
         }
 
     }
-}```
+}
 
