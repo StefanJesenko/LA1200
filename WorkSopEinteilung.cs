@@ -19,13 +19,13 @@ namespace WhorkshopEinteilung
                     Console.WriteLine("Geben Sie den Vor- und Nachnamen eines Workshopteilnehmers ein.");
                     workshopTeil.Add(Convert.ToString(Console.ReadLine()));
 
-                    for (int i = 0; i <= 3;)
+                    for (int i = -1; i <= 3;)
                     {
-                        i++;
                         Console.WriteLine("Geben Sie ein welcher Workshop Sie besuchen wollen.");
                         workshopausw.Add(Convert.ToString(Console.ReadLine()));
                         do
                         {
+                            i++;
                             try
                             {
                                 Console.WriteLine("Geben Sie ein welche Priorität Workshop {0} hat (1-3)", z);
