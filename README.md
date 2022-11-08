@@ -87,8 +87,19 @@ Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übern
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |  25.10.2022     |     Lorenzo      |     1          |          1         |
+| 1.B  |   25.10.2022    |      Keanu     |      0.5         |         1          |
+| 1.C  |   25.10.2022    |     Stefan     |      0.75         |         0.75          |
+| 1.D  |   25.10.2022    |      Dorian     |      0.5         |         0.45          |
+| 2.A  |   25.10.2022    |      Pascal / Dorian    |      0.45       |         0.45          |
+| 3.A  |   25.10.2022    |      Alle    |      1.5         |         1          |
+| 3.B  |   01.11.2022   |      Pascal    |      1         |         0.5          |
+| 4.A  |   01.11.2022   |      Pascal / Stefan / Dorian     |      5         |         5          |
+| 4.B  |   01.11.2022   |      Dorian / Keanu / Lorenzo    |      1        |         1          |
+| 4.C  |   07.11.2022  |      Pascal     |      1         |         0.5          |
+| 5.A |   08.11.2022  |      Dorian     |      1        |         Offen          |
+| 5.B  |   08.11.2022  |      Dorian     |      1         |         Offen          |
+| 6.A  |   15.11.2022  |      Alle    |      5        |         Offen         |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
