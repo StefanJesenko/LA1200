@@ -1,5 +1,6 @@
 
-c sharp
+c#
+```
 namespace LA_1200
 {
     public class EingabePersonen 
