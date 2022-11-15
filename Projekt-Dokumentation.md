@@ -60,7 +60,7 @@ In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop eint
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |   25.10.2022    |     Lorenzo      |       Informieren / Userstory       |      1        |
+| 1.A |    25.10.2022   |     Lorenzo      |       Informieren / Userstory       |      1        |
 | 1.B |    25.10.2022   |      Kenau     |        Informieren / Testfälle      |       0.5        |
 | 1.C |    25.10.2022   |      Stefan     |        Informieren / PAP     |       0.75        |
 | 1.D |    25.10.2022   |      Dorian     |        Überprüfen PAP    |       0.5        |
@@ -81,7 +81,8 @@ Total Arbeitspakete: 21,7
 45min = 1 Arbeitspaket
 
 ## 3 Entscheiden
-Da wir die Zeit falsch eingeschetzt habe, programmieren wir das progromm nach User-Story.
+
+Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übernehmen
 
 ## 4 Realisieren
 
@@ -110,10 +111,22 @@ Da wir die Zeit falsch eingeschetzt habe, programmieren wir das progromm nach Us
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 15.11.22 | funktioniert | Dorian |
+| 1.2  | 15.11.22 | funktioniert | Dorian |
+| 1.3  | 15.11.22 | funktioniert | Dorian |
+| 1.4  | 15.11.22 | funktioniert | Dorian |
+| 1.5  | 15.11.22 | funktioniert nicht | Dorian |
+| 2.1  | 15.11.22 | funktioniert | Dorian |
+| 2.2  | 15.11.22 | funktioniert nicht | Dorian |
+| 3.1  | 15.11.22 | funktioniert | Dorian |
+| 3.2  | 15.11.22 | funktioniert | Dorian |
+| 4.1  | 15.11.22 | funktioniert | Dorian |
+| 5.1  | 15.11.22 | funktioniert | Dorian |
+| 6.1  | 15.11.22 | funktioniert nicht | Dorian |
+| 7.1  | 15.11.22 | funktioniert | Dorian |
+| 8.1  | 15.11.22 | funktioniert | Dorian |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Das Programm funktioniert zum grössten Teil gut, ausser drei Testfälle, die nicht schwerliegende Fehler sind.
 
 
 ## 6 Auswerten
