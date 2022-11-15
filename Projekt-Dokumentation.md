@@ -106,6 +106,8 @@ Die Entscheidung in der Gruppe ist, dass wir keine weiteren Zusatzfunktionen hin
 | 5.C  |   15.11.2022  |      Dorian     |      1         |         0.5         |
 | 6.A  |   15.11.2022  |      Alle    |      1.5       |        1.4       |
 
+Total haben wir 17,9 Arbeitspakete gebraucht.
+
 
 
 ## 5 Kontrollieren
