@@ -84,7 +84,7 @@ Total Arbeitspakete: 21,7
 
 ## 3 Entscheiden
 
-Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übernehmen
+Die Entscheidung in der Gruppe ist, dass wir keine weiteren Zusatzfunktionen hinzufügen, weil das Programm umfassender war als wir dachten.
 
 ## 4 Realisieren
 
@@ -134,4 +134,4 @@ Das Programm funktioniert zum grössten Teil gut, ausser drei Testfälle, die ni
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+[Hier](Lernbericht.md) ist unser Lern-Bericht.
