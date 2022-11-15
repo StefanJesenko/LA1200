@@ -35,7 +35,7 @@ namespace LA_1200
             
 
            
-            workshopallocation.Workshopzuteilungen(participants, priority, listWorkshopName);
+            workshopallocation.WorkshopAllications(participants, priority, listWorkshopName);
             
         }
     }
