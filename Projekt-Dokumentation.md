@@ -99,8 +99,8 @@ Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übern
 | 4.B  |   01.11.2022   |      Dorian / Keanu / Lorenzo    |      1        |         1          |
 | 4.C  |   07.11.2022  |      Pascal     |      1         |         0.5          |
 | 5.A |   08.11.2022  |      Keanu / Stefan / Pascal     |      2        |         2          |
-| 5.B |   15.11.2022  |      Dorian     |      1        |         Offen          |
-| 5.C  |   15.11.2022  |      Dorian     |      1         |         Offen          |
+| 5.B |   15.11.2022  |      Dorian     |      1        |         0.25         |
+| 5.C  |   15.11.2022  |      Dorian     |      1         |         0.5         |
 | 6.A  |   15.11.2022  |      Alle    |      5        |         Offen         |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
