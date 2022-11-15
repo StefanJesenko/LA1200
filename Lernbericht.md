@@ -46,7 +46,6 @@ Was gut gelaufen ist:
 
 Was nicht gut gelaufen ist:
 - Während dem Programmieren gab es dann Probleme bei der Kommunikation und wir konnten nicht sehr effizient programmieren.
-- 
 
 **VBV**:
 Nächstes Mal werden wir uns beim Programmieren besser koordinieren und am Anfang genauer einteilen, wer was macht. Damit wir so effizient wie möglich programmieren können.
