@@ -5,9 +5,11 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|    25.10.22   | 0.1  | IPE = Informieren/ Planen/ Entscheiden |
-|   01.11.22    | 0.2  | R = Realisieren             |
-|   08.11.22    | 0.3  |    R = Realisieren / K = Kontrollieren                                                          |
+|    25.10.22   | 0.0.1 | IPE = Informieren / Planen / Entscheiden - Heute haben wir uns informiert, unser Projekt geplant und uns entschieden wie wir das Projekt ausfühern wollen. |
+|   01.11.22    | 0.0.2 | R = Realisieren - Heute haben angefangen den Code zu programmieren. |
+|   08.11.22    | 0.0.3 | RK = Realisieren / Kontrollieren - Heute haben wir wieder Zuhause garbeited und das Programm abgeschlossen |
+|   15.11.22    | 1.0.0 | A = Auswerten - Heute sind wir wieder in der BBB und sind an den letzten und Aufgaben (  |
+
 
 ## 1 Informieren
 
@@ -112,20 +114,20 @@ Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übern
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 15.11.22 | funktioniert | Dorian |
-| 1.2  | 15.11.22 | funktioniert | Dorian |
-| 1.3  | 15.11.22 | funktioniert | Dorian |
-| 1.4  | 15.11.22 | funktioniert | Dorian |
-| 1.5  | 15.11.22 | funktioniert nicht | Dorian |
-| 2.1  | 15.11.22 | funktioniert | Dorian |
-| 2.2  | 15.11.22 | funktioniert nicht | Dorian |
-| 3.1  | 15.11.22 | funktioniert | Dorian |
-| 3.2  | 15.11.22 | funktioniert | Dorian |
-| 4.1  | 15.11.22 | funktioniert | Dorian |
-| 5.1  | 15.11.22 | funktioniert | Dorian |
-| 6.1  | 15.11.22 | funktioniert nicht | Dorian |
-| 7.1  | 15.11.22 | funktioniert | Dorian |
-| 8.1  | 15.11.22 | funktioniert | Dorian |
+| 1.1  | 15.11.2022 | funktioniert | Dorian |
+| 1.2  | 15.11.2022 | funktioniert | Dorian |
+| 1.3  | 15.11.2022 | funktioniert | Dorian |
+| 1.4  | 15.11.2022 | funktioniert | Dorian |
+| 1.5  | 15.11.2022 | funktioniert nicht | Dorian |
+| 2.1  | 15.11.2022 | funktioniert | Dorian |
+| 2.2  | 15.11.2022 | funktioniert nicht | Dorian |
+| 3.1  | 15.11.2022 | funktioniert | Dorian |
+| 3.2  | 15.11.2022 | funktioniert | Dorian |
+| 4.1  | 15.11.2022 | funktioniert | Dorian |
+| 5.1  | 15.11.2022 | funktioniert | Dorian |
+| 6.1  | 15.11.2022 | funktioniert nicht | Dorian |
+| 7.1  | 15.11.2022 | funktioniert | Dorian |
+| 8.1  | 15.11.2022 | funktioniert | Dorian |
 
 Das Programm funktioniert zum grössten Teil gut, ausser drei Testfälle, die nicht schwerliegende Fehler sind.
 
