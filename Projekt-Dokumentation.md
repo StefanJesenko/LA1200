@@ -5,17 +5,17 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|    25.10.22   | 0.0.1 | IPE = Informieren / Planen / Entscheiden - Heute haben wir uns informiert, unser Projekt geplant und uns entschieden wie wir das Projekt ausfühern wollen. |
-|   01.11.22    | 0.0.2 | R = Realisieren - Heute haben angefangen den Code zu programmieren. |
-|   08.11.22    | 0.0.3 | RK = Realisieren / Kontrollieren - Heute haben wir wieder Zuhause garbeited und das Programm abgeschlossen |
-|   15.11.22    | 1.0.0 | A = Auswerten - Heute sind wir wieder in der BBB und sind an den letzten und Aufgaben (  |
+|    25.10.22   | 0.0.1 | Wir haben unsere Gruppe gebildet, uns entschieden welches Projekt wir machen wollen und mit dem einlteilen von aufgaben und dem schreiben von user Storys angefangen|
+|   01.11.22    | 0.0.2 |Wir haben das erste mal programmiert, wir waren noch etwas unbeholfen was die Aufteilung der Aufträge angeht, aber wir konnten den ersten Teil unseres Programms schreiben.|
+|   08.11.22    | 0.0.3 |Heute haben wir unser Programm abgeschlossen, es funktioniert nicht komplett, aber wir sind die Kernfunktionen sind vorhanden.|
+|   15.11.22    | 1.0.0 |Heute haben wir die Projektdokumentation fertiggeschrieben und unseren Lernbericht gemacht, wir haben auserdem unseren Code schöner gemacht.|
 
 
 ## 1 Informieren
 
 ### 1.1 Workshop
 
-In unserem Projekt erstellen wir ein Programm, indem eine gerechte Workshop einteilung gelingen wird.
+In unserem Projekt erstellen wir ein Programm, mit dem wir Teilnehmer gerecht in Workshops einteilen können.
 
 ### 1.2 User Stories
 
@@ -106,7 +106,7 @@ Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übern
 | 5.C  |   15.11.2022  |      Dorian     |      1         |         0.5         |
 | 6.A  |   15.11.2022  |      Alle    |      1.5       |        1.4       |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
