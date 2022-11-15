@@ -1,35 +1,61 @@
-namespace WhorkshopEinteilung
+namespace LA_1200
 {
-    internal class Program
+    
+    class WorkShopEinteilung
     {
-        public static void Main(string[] args)
+        
+        public List<string> teilnehmer = new List<string>();
+        public  List<string> TeilnehmerNamen(List<string>Teilnehmer)
         {
-            List<string> Workshops = new();
-            List<string> Teilnehmer = new();
+            
+       
+            Console.WriteLine("Geben Sie den Vor- und Nachnamen eines Workshopteilnehmers ein.");
+            string name = Console.ReadLine();
+            Teilnehmer.Add(name);
+            teilnehmer.Add(name);
+            
+            return Teilnehmer;
+        }
+        public  List<int> WorkshopEinteilung(List<string>workshopNamen,List<string>Teilnehmer)
+        {
+            WorkShopEinteilung workShopEinteilung = new WorkShopEinteilung();
+
             List<string> workshopausw = new();
             List<int> priorität = new();
             int[] prioVor = new int[3];
-            int mindanz = Workshops.Count * 4;
+            int mindanz = workshopNamen.Count * 4;
             bool control = false;
             bool check = false;
             int z = 0;
-            do
+            int t = 0;
+            
+            while (check == false)
             {
-                do
+
+                while (mindanz > t || mindanz < t)
                 {
-                    Console.WriteLine("Geben Sie den Vor- und Nachnamen eines Workshopteilnehmers ein.");
-                    Teilnehmer.Add(Console.ReadLine());
-                    for (int i = 0; i < 3; i++)
+                    
+                    workShopEinteilung.TeilnehmerNamen(Teilnehmer);
+                    
+                    for (int i = 0; i < workshopNamen.Count; i++)
                     {
-                        z = 0;
-                        z++;
-                        Console.WriteLine("Geben Sie ein welcher Workshop Sie besuchen wollen.");
-                        workshopausw.Add(Console.ReadLine());
-                        do
+                        control = false;
+
+
+
+
+                       
+                        while(control == false)
                         {
+
+                            if (z >= workshopNamen.Count)
+                            {
+                                z = 0;
+                            }
+                            z++;
                             try
                             {
-                                control = true;
+                                
                                 Console.WriteLine("Geben Sie ein welche Priorität Workshop {0} hat (1-3)", z);
                                 prioVor[i] = Convert.ToInt32(Console.ReadLine());
                             }
@@ -45,19 +71,43 @@ namespace WhorkshopEinteilung
                             }
                             else
                             {
-                                control = true;
+                                
+                                
                                 priorität.Add(prioVor[i]);
+                                
+                               
+                                
+                                    control = true;
+                                
                             }
-                        } while (control == false);
+                           
+                            
+                        }
+                       
                     }
-                } while (mindanz == Teilnehmer.Count);
-                Console.WriteLine("Um weiter zu fahren drücken Sie (n) Ansonst geben Sie weitere Teilnehmern ein.");
+                    t++;
+                    if(t == mindanz +2)
+                    {
+                        t = mindanz;
+                    }
+                } 
+                Console.WriteLine("Um weiter zu fahren drücken Sie (n) Ansonsten drücken Sie die Leertaste.");
                 string eingabe = Console.ReadLine();
-                if (eingabe != "n")
+                if (eingabe == "n")
                 {
                     check = true;
                 }
-            } while (check == true);
+                else
+                {
+                   
+                    control = false;
+                    t++;
+                }
+                
+                
+                
+            } 
+            return priorität;
         }
     }
 }

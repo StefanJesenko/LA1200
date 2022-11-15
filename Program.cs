@@ -3,10 +3,14 @@ namespace LA_1200
 {
     internal class Program
     {
+        
+
         static void Main(string[] args)
         {
-           
-            bool loop = true;
+            WorkShopEinteilung workShopEinteilung = new();
+            Workshopzuteilung workshopzuteilung = new();
+            List<string> Teilnehmer = new();
+        bool loop = true;
             List<string> listenWorkshopNamen = new List<string>();
                WorkshopNamen workshopNamen = new();
             workshopNamen.Display();
@@ -25,6 +29,14 @@ namespace LA_1200
             {
                 Console.WriteLine(s);
             }
+            
+            List<int> priorität = workShopEinteilung.WorkshopEinteilung(listenWorkshopNamen,Teilnehmer);
+            
+            
+
+           
+            workshopzuteilung.Workshopzuteilungen(Teilnehmer, priorität, listenWorkshopNamen);
+            
         }
-    }  
+    }
 }
