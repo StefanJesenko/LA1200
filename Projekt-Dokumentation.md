@@ -81,8 +81,7 @@ Total Arbeitspakete: 21,7
 45min = 1 Arbeitspaket
 
 ## 3 Entscheiden
-
-Die Entscheidung in der Gruppe war das Informieren und die Plannung so zu übernehmen
+Da wir die Zeit falsch eingeschetzt habe, programmieren wir das progromm nach User-Story.
 
 ## 4 Realisieren
 
