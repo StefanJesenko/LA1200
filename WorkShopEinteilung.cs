@@ -1,54 +1,54 @@
 namespace LA_1200
 {
     
-    class WorkShopEinteilung
+    class AddingToWorkshop
     {
         
-        public List<string> teilnehmer = new List<string>();
-        public  List<string> TeilnehmerNamen(List<string>Teilnehmer)
+        public List<string> participants = new List<string>();
+        public  List<string> TeilnehmerNamen(List<string>Participants)
         {
             
        
             Console.WriteLine("Geben Sie den Vor- und Nachnamen eines Workshopteilnehmers ein.");
             string name = Console.ReadLine();
-            Teilnehmer.Add(name);
-            teilnehmer.Add(name);
+            Participants.Add(name);
+            participants.Add(name);
             
-            return Teilnehmer;
+            return Participants;
         }
-        public  List<int> WorkshopEinteilung(List<string>workshopNamen,List<string>Teilnehmer)
+        public List<int> AddingToWorkshops(List<string>workshopName,List<string>Participants)
         {
-            WorkShopEinteilung workShopEinteilung = new WorkShopEinteilung();
+            AddingToWorkshop addingToWorkshop = new AddingToWorkshop();
 
             List<string> workshopausw = new();
-            List<int> priorität = new();
+            List<int> priority = new();
             int[] prioVor = new int[3];
-            int mindanz = workshopNamen.Count * 4;
-            bool control = false;
-            bool check = false;
+            int minNumber = workshopName.Count * 4;
+            bool isControl = false;
+            bool isCheck = false;
             int z = 0;
             int t = 0;
             
-            while (check == false)
+            while (isCheck == false)
             {
 
-                while (mindanz > t || mindanz < t)
+                while (minNumber > t || minNumber < t)
                 {
                     
-                    workShopEinteilung.TeilnehmerNamen(Teilnehmer);
+                    addingToWorkshop.TeilnehmerNamen(Participants);
                     
-                    for (int i = 0; i < workshopNamen.Count; i++)
+                    for (int i = 0; i < workshopName.Count; i++)
                     {
-                        control = false;
+                        isControl = false;
 
 
 
 
                        
-                        while(control == false)
+                        while(isControl == false)
                         {
 
-                            if (z >= workshopNamen.Count)
+                            if (z >= workshopName.Count)
                             {
                                 z = 0;
                             }
@@ -62,22 +62,22 @@ namespace LA_1200
                             catch
                             {
                                 Console.WriteLine("Ungültige Eingabe");
-                                control = false;
+                                isControl = false;
                             }
                             if (prioVor[i] < 1 || prioVor[i] > 3)
                             {
                                 Console.WriteLine("Bitte geben sie nur eine Zahl zwischen 1-3 ein.");
-                                control = false;
+                                isControl = false;
                             }
                             else
                             {
                                 
                                 
-                                priorität.Add(prioVor[i]);
+                                priority.Add(prioVor[i]);
                                 
                                
                                 
-                                    control = true;
+                                    isControl = true;
                                 
                             }
                            
@@ -86,28 +86,28 @@ namespace LA_1200
                        
                     }
                     t++;
-                    if(t == mindanz +2)
+                    if(t == minNumber+2)
                     {
-                        t = mindanz;
+                        t = minNumber;
                     }
                 } 
                 Console.WriteLine("Um weiter zu fahren drücken Sie (n) Ansonsten drücken Sie die Leertaste.");
                 string eingabe = Console.ReadLine();
                 if (eingabe == "n")
                 {
-                    check = true;
+                    isCheck = true;
                 }
                 else
                 {
                    
-                    control = false;
+                    isControl = false;
                     t++;
                 }
                 
                 
                 
             } 
-            return priorität;
+            return priority;
         }
     }
 }

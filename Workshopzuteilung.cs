@@ -6,44 +6,44 @@ namespace LA_1200
         public int k = 0;
         public int i = 0;
         public List<int> kCount = new List<int>();
-        public List<string> Workshopzuteilungen(List<string> teilnehmer, List<int> priorität, List<string> Workshops)
+        public List<string> Workshopzuteilungen(List<string> participants, List<int> priority, List<string> workshop)
         {
-            List<string> Zuteilung = new List<string>();
-            List<string> finalZuteilung = new List<string>();
-            int prioritätCount = 3;
-            int zahlWorkshop = 0;
+            List<string> allocation  = new List<string>();
+            List<string> finalAllocation = new List<string>();
+            int priorityCount = 3;
+            int numberWorkshop = 0;
             Workshopzuteilung workshopzuteilung = new();
              
             
              int j = 0;
             
-            for( int y = 0; y < Workshops.Count; y++)
+            for( int y = 0; y < workshop.Count; y++)
             {
-                workshopzuteilung.WorkshopzuteilungAlgorythmus(teilnehmer, priorität, Workshops, Zuteilung, prioritätCount, zahlWorkshop, j,i,k);
+                workshopzuteilung.WorkshopzuteilungAlgorythmus(participants, priority, workshop, allocation, priorityCount, numberWorkshop, j,i,k);
                 i = 0;
                 i++;
                 k = 0;
-                zahlWorkshop++;
-                Zuteilung = new List<string>();
-                foreach (string s in Zuteilung)
+                numberWorkshop++;
+               allocation = new List<string>();
+                foreach (string s in allocation)
                 {
-                    finalZuteilung.Add(s);
+                    finalAllocation.Add(s);
                 }
             }
             
-            for ( int y = 0; y < Workshops.Count; y++)
+            for ( int y = 0; y < workshop.Count; y++)
             {
                 k = 0;
                 i = 0;
-                zahlWorkshop = 0;
+                numberWorkshop = 0;
                 j = 0;
-                prioritätCount--;
-                Zuteilung = new List<string>();
+                priorityCount--;
+                allocation = new List<string>();
                 for (int z = 0; z < kCount.Count; z++)
                 {
                     if (kCount[z] != 4)
                     {
-                        workshopzuteilung.WorkshopzuteilungAlgorythmus(teilnehmer, priorität, Workshops, Zuteilung, prioritätCount, zahlWorkshop, j, i, k);
+                        workshopzuteilung.WorkshopzuteilungAlgorythmus(participants, priority, workshop, allocation, priorityCount, numberWorkshop, j, i, k);
                     }
                     else
                     {
@@ -53,25 +53,24 @@ namespace LA_1200
 
                     i++;
                 k = 0;
-                zahlWorkshop++;
-                foreach (string s in Zuteilung)
+                numberWorkshop++;
+                foreach (string s in allocation)
                 {
-                    finalZuteilung.Add(s);
+                    finalAllocation.Add(s);
                 }
             }
-            for( int y = 0; y < Workshops.Count; y++)
+            for( int y = 0; y < workshop.Count; y++)
             {
                 k = 0;
                 i = 0;
-                zahlWorkshop = 0;
+                numberWorkshop = 0;
                 j = 0;
-                prioritätCount--;
-                Zuteilung = new List<string>();
+                allocation = new List<string>();
                 for(int z = 0 ; z < kCount.Count; z++)
                 {
                     if(kCount[z] != 4)
                     {
-                        workshopzuteilung.WorkshopzuteilungAlgorythmus(teilnehmer, priorität, Workshops, Zuteilung, prioritätCount, zahlWorkshop, j, i, k);
+                        workshopzuteilung.WorkshopzuteilungAlgorythmus(participants, priority, workshop, allocation, priorityCount, numberWorkshop, j, i, k);
                     }
                     else
                     {
@@ -83,31 +82,31 @@ namespace LA_1200
                 
                 i++;
                 k = 0;
-                zahlWorkshop++;
-                foreach (string s in Zuteilung)
+                numberWorkshop++;
+                foreach (string s in allocation)
                 {
-                    finalZuteilung.Add(s);
+                    finalAllocation.Add(s);
                 }
             }
-            foreach(string s in finalZuteilung)
+            foreach(string s in finalAllocation)
             {
                 Console.WriteLine(s);
             }
           
 
-            return finalZuteilung;
+            return finalAllocation;
         }
         
-        public List<string> WorkshopzuteilungAlgorythmus(List<string> Teilnehmer, List<int> priorität, List<string>Workshops, List<string>Zuteilung, int prioritätCount, int zahlWorkshop, int j, int i, int k)
+        public List<string> WorkshopzuteilungAlgorythmus(List<string> participants, List<int> priority, List<string>workshop, List<string> Allocation, int priorityCount, int numberWorkshop, int j, int i, int k)
         {
 
            
-            for (; i < priorität.Count; i += Workshops.Count)
+            for (; i < priority.Count; i += workshop.Count)
             {
 
-                if (priorität[i] == prioritätCount)
+                if (priority[i] == priorityCount)
                 {
-                    Zuteilung.Add(Workshops[zahlWorkshop] + " " + Teilnehmer[j]);
+                    Allocation.Add(workshop[numberWorkshop] + " " + participants[j]);
 
                     k++;
                     if (k == 4)
@@ -120,7 +119,7 @@ namespace LA_1200
               
             }
            
-            return Zuteilung;
+            return Allocation;
         }
   
     }

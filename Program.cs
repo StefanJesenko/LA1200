@@ -7,35 +7,35 @@ namespace LA_1200
 
         static void Main(string[] args)
         {
-            WorkShopEinteilung workShopEinteilung = new();
-            Workshopzuteilung workshopzuteilung = new();
-            List<string> Teilnehmer = new();
-        bool loop = true;
-            List<string> listenWorkshopNamen = new List<string>();
-               WorkshopNamen workshopNamen = new();
-            workshopNamen.Display();
-           while(loop == true)
+            AddingToWorkshop addingToWorkshop = new();
+            Workshopzuteilung workshopallocation = new();
+            List<string> participants = new();
+        bool isLoop = true;
+            List<string> listWorkshopName = new List<string>();
+               WorkshopNamen workshopName = new();
+            workshopName.Display();
+           while(isLoop == true)
            {
-                string workshopName = workshopNamen.Workshop(); 
-                if(workshopName == "n")
+                string workshopsName = workshopName.Workshop(); 
+                if(workshopsName == "n")
                 {
                     break;
                 }
-                listenWorkshopNamen.Add(workshopName);
+                listWorkshopName.Add(workshopsName);
                 
            }
 
-            foreach (string s in listenWorkshopNamen)
+            foreach (string s in listWorkshopName)
             {
                 Console.WriteLine(s);
             }
             
-            List<int> priorität = workShopEinteilung.WorkshopEinteilung(listenWorkshopNamen,Teilnehmer);
+            List<int> priority = addingToWorkshop.AddingToWorkshops(listWorkshopName,participants);
             
             
 
            
-            workshopzuteilung.Workshopzuteilungen(Teilnehmer, priorität, listenWorkshopNamen);
+            workshopallocation.Workshopzuteilungen(participants, priority, listWorkshopName);
             
         }
     }

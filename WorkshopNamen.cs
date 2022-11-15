@@ -11,9 +11,9 @@
         {
            
             Console.Write("Geben Sie einen Workshopnamen ein: ");
-            string workshopNamen = Console.ReadLine();
+            string workshopName = Console.ReadLine();
 
-            return workshopNamen;
+            return workshopName;
         }
     }
     
